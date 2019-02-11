@@ -21,3 +21,19 @@ Created via IntelliJ. Can be found in the project root folder.
 
 # VersionControl:
 Version contol is done on GIT via GITHUB.
+
+# Manual Tests:
+For this POC, I tested with below test conditions:
+
+Positive tests:
+-> SUMMER (in caps)
+-> Faded (normal)
+-> girly (normal)
+-> gir (partial text searches)
+-> evening (normal)
+
+Negative tests:
+-> Empty
+-> Spaces
+-> Special chars
+-> Wild card
