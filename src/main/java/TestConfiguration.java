@@ -6,6 +6,7 @@ public class TestConfiguration {
 
     public static final String TestBrowser = "Chrome";
     public static String urlToTest = "http://automationpractice.com";
+
     private WebDriver driver;
 
     // Environment variables
