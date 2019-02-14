@@ -21,7 +21,7 @@ public class TestSearchNegative {
     }
     @Test
     public void canSearchAndAssertWithSpacesAsItemsCount() {
-        String itemsFound = pageObject.getCounterOfFoundItems(driver,urlToTest,"");
+        String itemsFound = pageObject.getCounterOfFoundItems(driver,urlToTest," ");
         assertEquals("0 results have been found.",itemsFound);
         testConfiguration.quitDriver();
     }

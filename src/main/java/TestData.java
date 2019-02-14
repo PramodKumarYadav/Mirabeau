@@ -9,9 +9,13 @@ public class TestData {
         mapOfSearchItemExpectedCount.put("SUMMER", "4 results have been found.");
         mapOfSearchItemExpectedCount.put("Faded", "1 result has been found.");
         mapOfSearchItemExpectedCount.put("printed", "4 results have been found.");
-        mapOfSearchItemExpectedCount.put("casual", "4 results have been found.");
+        mapOfSearchItemExpectedCount.put("casual", "3 results have been found.");
         mapOfSearchItemExpectedCount.put("girly", "3 results have been found.");
         mapOfSearchItemExpectedCount.put("gir", "3 results have been found.");
+        mapOfSearchItemExpectedCount.put("", "0 results have been found.");
+        mapOfSearchItemExpectedCount.put("   ", "0 results have been found.");
+        mapOfSearchItemExpectedCount.put("#$#%%", "0 results have been found.");
+        mapOfSearchItemExpectedCount.put("*", "0 results have been found.");
 
         return mapOfSearchItemExpectedCount;
     }
